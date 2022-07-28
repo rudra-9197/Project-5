@@ -1,0 +1,97 @@
+body {
+  background-image: url(./assets/bg.png);
+}
+.navbar{
+
+    background-color: black;
+    height: 5rem;
+}
+.list-item {
+  position: relative;
+  display: inline;
+  bottom: 5rem;
+  left: 20rem;
+  padding-left: 4rem;
+  font-size: 20px;
+  font-family: "poppins-bold", sans-serif;
+  color: white;
+}
+.logo {
+  position: relative;
+  left: 5rem;
+  top: 1rem;
+}
+.hero-heading {
+  position: relative;
+  left: 30rem;
+  top: rem;
+  font-family: "poppins-bold", sans-serif;
+  font-size: 6rem;
+  width: 60rem;
+  color: white;
+}
+
+.button-small {
+  position: relative;
+  left: 75rem;
+  bottom: 8.5rem;
+  padding: 1rem;
+  background-color: #E03B8B;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+ 
+}
+
+.button-large {
+  position: relative;
+  padding: 1.5rem;
+  width: 250px;
+  left: 45rem;
+  background-color: #E03B8B;
+  border-radius: 1rem;
+  color: white;
+  font-size: 20px;
+  border: 2px solid;
+  border-color: white;
+  box-sizing: border-box;
+ 
+}
+.hero-description{
+
+position: relative;
+  left: 30rem;
+  bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 50rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+  font-weight: 50;
+ 
+}
+
+.line{
+position: relative;
+    height: 2rem;
+    border-left: 2px solid;
+    border-color: white;
+    left: 20rem;
+    bottom: 3rem;
+    
+}
+.arrow {
+    position: relative;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    left: 30rem;
+    bottom: 3rem;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
